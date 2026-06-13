@@ -163,25 +163,25 @@
 //}
 
 //6
-Console.WriteLine("Input Start: ");
-string start;
-start = Console.ReadLine();
-Console.WriteLine("Input End: ");
-string end;
-end = Console.ReadLine();
-int startc = int.Parse(start);
-int endc = int.Parse(end);
-if (startc > endc)
-{
-    int temp;
-    temp = startc;
-    startc = endc;
-    endc = temp;
-}
-for (int i = startc; i < endc + 1; i++)
-{
-    if (i % 2 == 0)
-    {
-        Console.WriteLine(i);
-    }
-}
+//Console.WriteLine("Input Start: ");
+//string start;
+//start = Console.ReadLine();
+//Console.WriteLine("Input End: ");
+//string end;
+//end = Console.ReadLine();
+//int startc = int.Parse(start);
+//int endc = int.Parse(end);
+//if (startc > endc)
+//{
+//    int temp;
+//    temp = startc;
+//    startc = endc;
+//    endc = temp;
+//}
+//for (int i = startc; i < endc + 1; i++)
+//{
+//    if (i % 2 == 0)
+//    {
+//        Console.WriteLine(i);
+//    }
+//}
