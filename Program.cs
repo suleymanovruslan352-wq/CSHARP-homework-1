@@ -117,7 +117,7 @@
 
 //Console.WriteLine($"Result: {total}");
 
-//static int Pow10(int power)
+//int Pow10(int power)
 //{
 //    int result = 1;
 //    for (int i = 0; i < power; i++)
